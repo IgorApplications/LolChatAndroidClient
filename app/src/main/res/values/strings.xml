@@ -1,0 +1,39 @@
+<resources>
+    <!-- General -->
+    <string name="app_name" translatable="false">LolChat</string>
+
+    <!-- strings of Auth Activity -->
+
+    <string name="authorization" translatable="true">Authorization</string>
+    <string name="auth_login" translatable="true">Login:</string>
+    <string name="auth_password" translatable="true">Password:</string>
+    <string name="login" translatable="true">Login</string>
+
+    <!-- strings of Registration Activity -->
+
+    <string name="registration" translatable="true">Registration</string>
+    <string name="register" translatable="true">Register</string>
+    <string name="reg_repeat_password" translatable="true">Repeat password:</string>
+    <string name="incorrect_passwords" translatable="true">Incorrect passwords</string>
+    <string name="entered_password_not_occur" translatable="true">The passwords entered did not occur</string>
+    <string name="incorrect_mail" translatable="true">Incorrect mail</string>
+    <string name="entered_email_syntax" translatable="true">The entered email must match the syntax:
+        [characters]@[characters].[characters]
+    </string>
+    <string name="accept" translatable="true">Accept</string>
+    <string name="error_equal" translatable="true">Error =</string>
+    <string name="incorrect_password" translatable="true">Incorrect password</string>
+    <string name="incorrect_login" translatable="true">Incorrect login</string>
+    <string name="email_longer_50" translatable="true">Email cannot be longer than 50 characters</string>
+    <string name="login_least_3" translatable="true">Login must be at least 3 characters long</string>
+    <string name="login_longer_20" translatable="true">Login must be no more than 20 characters</string>
+    <string name="password_least_6" translatable="true">Password must be at least 6 characters long</string>
+    <string name="password_longer_50" translatable="true">The password must be no more than 50 characters</string>
+    <string name="login_exists" translatable="true">This login already exists</string>
+    <string name="login_error" translatable="true">Login error</string>
+    <string name="login_does_not_exist" translatable="true">This login does not exist</string>
+    <string name="password_does_not_fit" translatable="true">The password does not fit</string>
+    <string name="error" translatable="true">Error</string>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".controllers.activities.SearchActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/search_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageButton
+                    android:id="@+id/search_back"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_arrow_back_28"
+                    android:onClick="goToGeneralMenu"
+                    android:layout_centerVertical="true"/>
+
+            <EditText
+                    android:id="@+id/search_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/search_back"
+                    android:layout_toLeftOf="@+id/search"
+                    android:layout_centerVertical="true"/>
+
+            <ImageButton
+                    android:id="@+id/search"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_search_28"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:onClick="search"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+            android:id="@+id/list_of_found_accounts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_toolbar"
+
+            android:divider="@android:color/transparent"
+            android:footerDividersEnabled="false"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay">
+    </ListView>
+
+</RelativeLayout>

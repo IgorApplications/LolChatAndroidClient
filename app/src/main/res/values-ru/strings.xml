@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- strings of Auth Activity -->
+
+    <string name="authorization" translatable="true">Авторизация</string>
+    <string name="auth_login" translatable="true">Логин:</string>
+    <string name="auth_password" translatable="true">Пароль:</string>
+    <string name="login" translatable="true">Войти</string>
+
+    <!-- strings of Registration Activity -->
+
+    <string name="registration" translatable="true">Регистрация</string>
+    <string name="register" translatable="true">Зарегистрироваться</string>
+    <string name="reg_repeat_password" translatable="true">Повторно пароль:</string>
+    <string name="incorrect_passwords" translatable="true">Некорректные пароли</string>
+    <string name="entered_password_not_occur" translatable="true">Введенные пароли не совпадают</string>
+    <string name="incorrect_mail" translatable="true">Нкорректная почта</string>
+    <string name="entered_email_syntax" translatable="true">Введенная почта должна соответсвовать синтаксису: [символы]@[символы].[символы]</string>
+    <string name="accept" translatable="true">Принять</string>
+    <string name="error_equal" translatable="true">Ошибка = </string>
+    <string name="incorrect_password" translatable="true">Некорректный пароль</string>
+    <string name="incorrect_login" translatable="true">Некорректный логин</string>
+    <string name="email_longer_50" translatable="true">Почта не может быть длинее 50 символов</string>
+    <string name="login_least_3" translatable="true">Логин должен быть не меньше 3 символов</string>
+    <string name="login_longer_20" translatable="true">Логин должен не больше 20 символов</string>
+    <string name="password_least_6" translatable="true">Пароль должен быть не меньше 6 символов</string>
+    <string name="password_longer_50" translatable="true">Пароль должен быть не больше 50 символов</string>
+    <string name="login_exists" translatable="true">Такой логин уже существует</string>
+    <string name="login_error" translatable="true">Ошибка входа</string>
+    <string name="login_does_not_exist" translatable="true">Такой логин не существует</string>
+    <string name="password_does_not_fit" translatable="true">Пароль не подходит</string>
+    <string name="error" translatable="true">Ошибка</string>
+
+
+</resources>
