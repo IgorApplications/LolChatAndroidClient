@@ -1,2 +1,2 @@
 # LolChatAndroidClient
-Client part of the messenger (social network) for the Android operating system
+Client part of the messenger "LolChat" (social network) for the Android operating system
